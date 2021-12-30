@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB" id="filter_1">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+      <feOffset dx="10" dy="10" />
+      <feGaussianBlur stdDeviation="10" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.39215687 0 0 0 0 0.39215687 0 0 0 0 0.39215687 0 0 0 0.49803922 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect0_dropShadow" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect0_dropShadow" result="shape" />
+    </filter>
+    <rect width="512" height="512" id="artboard_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#artboard_1" clip-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="Artboard" clip-path="url(#clip_1)">
+    <use xlink:href="#artboard_1" stroke="none" fill="#FFFFFF" />
+    <g filter="url(#filter_1)">
+      <g id="Skydle-SMP-Season-3-Logo" transform="translate(96 115)">
+        <path d="M0 0L40 0L40 81L0 81L0 0Z" id="Rectangle" fill="#FF007F" fill-rule="evenodd" stroke="none" />
+        <path d="M80 81L120 81L120 162L80 162L80 81Z" id="Rectangle-Copy-5" fill="#FF007F" fill-rule="evenodd" stroke="none" />
+        <path d="M280 3.05176e-05L320 3.05176e-05L320 81L280 81L280 3.05176e-05Z" id="Rectangle-Copy" fill="#FF007F" fill-rule="evenodd" stroke="none" />
+        <path d="M240 41L280 41L280 122L240 122L240 41Z" id="Rectangle-Copy-2" fill="#FF007F" fill-rule="evenodd" stroke="none" />
+        <path d="M200 81L240 81L240 162L200 162L200 81Z" id="Rectangle-Copy-3" fill="#FF007F" fill-rule="evenodd" stroke="none" />
+        <path d="M160 162L200 162L200 243L160 243L160 162Z" id="Rectangle-Copy-6" fill="#FF007F" fill-rule="evenodd" stroke="none" />
+        <path d="M240 162L280 162L280 243L240 243L240 162Z" id="Rectangle-Copy-8" fill="#FF007F" fill-rule="evenodd" stroke="none" />
+        <path d="M120 162L160 162L160 243L120 243L120 162Z" id="Rectangle-Copy-7" fill="#FF007F" fill-rule="evenodd" stroke="none" />
+        <path d="M40.0001 283L40.0001 243L120 243L120 283L40.0001 283Z" id="Rectangle-Copy-10" fill="#FF007F" fill-rule="evenodd" stroke="none" />
+        <path d="M80.0002 202L80.0002 162L120 162L120 202L80.0002 202Z" id="Rectangle-Copy-12" fill="#FF007F" fill-rule="evenodd" stroke="none" />
+        <path d="M200 202L200 162L240 162L240 202L200 202Z" id="Rectangle-Copy-13" fill="#FF007F" fill-rule="evenodd" stroke="none" />
+        <path d="M200 283L200 243L280 243L280 283L200 283Z" id="Rectangle-Copy-11" fill="#FF007F" fill-rule="evenodd" stroke="none" />
+        <path d="M40 162L80 162L80 243L40 243L40 162Z" id="Rectangle-Copy-9" fill="#FF007F" fill-rule="evenodd" stroke="none" />
+        <path d="M40 40L80 40L80 121L40 121L40 40Z" id="Rectangle-Copy-4" fill="#FF007F" fill-rule="evenodd" stroke="none" />
+      </g>
+    </g>
+  </g>
+</svg>
