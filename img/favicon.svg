@@ -15,8 +15,8 @@
       <use xlink:href="#artboard_1" clip-rule="evenodd" />
     </clipPath>
   </defs>
-  <g id="Artboard" clip-path="url(#clip_1)">
-    <use xlink:href="#artboard_1" stroke="none" fill="#FFFFFF" />
+  <g id="Artboard-Copy-2" clip-path="url(#clip_1)">
+    <path d="M0 256C0 114.615 114.615 0 256 0C397.385 0 512 114.615 512 256C512 397.385 397.385 512 256 512C114.615 512 0 397.385 0 256Z" id="Ellipse" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
     <g filter="url(#filter_1)">
       <g id="Skydle-SMP-Season-3-Logo" transform="translate(96 115)">
         <path d="M0 0L40 0L40 81L0 81L0 0Z" id="Rectangle" fill="#FF007F" fill-rule="evenodd" stroke="none" />
@@ -27,8 +27,8 @@
         <path d="M160 162L200 162L200 243L160 243L160 162Z" id="Rectangle-Copy-6" fill="#FF007F" fill-rule="evenodd" stroke="none" />
         <path d="M240 162L280 162L280 243L240 243L240 162Z" id="Rectangle-Copy-8" fill="#FF007F" fill-rule="evenodd" stroke="none" />
         <path d="M120 162L160 162L160 243L120 243L120 162Z" id="Rectangle-Copy-7" fill="#FF007F" fill-rule="evenodd" stroke="none" />
-        <path d="M40.0001 283L40.0001 243L120 243L120 283L40.0001 283Z" id="Rectangle-Copy-10" fill="#FF007F" fill-rule="evenodd" stroke="none" />
-        <path d="M80.0002 202L80.0002 162L120 162L120 202L80.0002 202Z" id="Rectangle-Copy-12" fill="#FF007F" fill-rule="evenodd" stroke="none" />
+        <path d="M40 283L40 243L120 243L120 283L40 283Z" id="Rectangle-Copy-10" fill="#FF007F" fill-rule="evenodd" stroke="none" />
+        <path d="M80.0001 202L80.0001 162L120 162L120 202L80.0001 202Z" id="Rectangle-Copy-12" fill="#FF007F" fill-rule="evenodd" stroke="none" />
         <path d="M200 202L200 162L240 162L240 202L200 202Z" id="Rectangle-Copy-13" fill="#FF007F" fill-rule="evenodd" stroke="none" />
         <path d="M200 283L200 243L280 243L280 283L200 283Z" id="Rectangle-Copy-11" fill="#FF007F" fill-rule="evenodd" stroke="none" />
         <path d="M40 162L80 162L80 243L40 243L40 162Z" id="Rectangle-Copy-9" fill="#FF007F" fill-rule="evenodd" stroke="none" />
