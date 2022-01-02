@@ -67,12 +67,10 @@ div {
    width: 100% !important;
    height: auto !important;
    margin-bottom:10px; /* to match column gap */
-   filter: grayscale(100%);
 }
 
 #gallery img:hover {
    filter: brightness(80%);
-   filter: none;
 }
 
 @media (max-width: 1200px) {
