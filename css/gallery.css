@@ -1,0 +1,106 @@
+/* Selection/Highlhgt Colour */
+	::-moz-selection { 
+		color: white;
+		background: #ff007f;
+	}
+
+	::selection {
+		color: white;
+		background: #ff007f;
+	}
+
+/* Scrollbar Colour */
+	/* Firefox */
+	* {
+		scrollbar-color: #ff007f transparent;
+	}
+
+	/* Chrome, Edge, and Safari */
+	*::-webkit-scrollbar {
+		width: 10px;
+	}
+
+	*::-webkit-scrollbar-track {
+		background: transparent;
+	}
+
+	*::-webkit-scrollbar-thumb {
+		background-color: #ff007f;
+		border-radius: 20px;
+	}
+
+.btn-info {
+    color: #000;
+    background-color: #ff007f;
+    border-color: #ff007f;
+}
+
+.btn-info:hover {
+    color: #000;
+    background-color: #ffffff;
+    border-color: #ff007f;
+}
+
+a {
+	color: #ff007f;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+div {
+	font-size: 1.05em;
+}
+
+#gallery {
+   line-height:0;
+   -webkit-column-count:2; /* split it into 5 columns */
+   -webkit-column-gap:10px; /* give it a 5px gap between columns */
+   -moz-column-count:2;
+   -moz-column-gap:10px;
+   column-count:2;
+   column-gap:10px;
+}
+
+#gallery img {
+   width: 100% !important;
+   height: auto !important;
+   margin-bottom:10px; /* to match column gap */
+}
+
+#gallery img:hover {
+   filter: brightness(80%);
+}
+
+@media (max-width: 1200px) {
+   #gallery {
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    column-count:         2;
+   }
+}
+
+@media (max-width: 1000px) {
+   #gallery {
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    column-count:         2;
+   }
+}
+
+@media (max-width: 800px) {
+   #gallery {
+    -moz-column-count:    1;
+    -webkit-column-count: 1;
+    column-count:         1;
+   }
+}
+
+@media (max-width: 400px) {
+   #gallery {
+    -moz-column-count:    1;
+    -webkit-column-count: 1;
+    column-count:         1;
+   }
+}
