@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Team Skydle Website</title>
+
+    <!-- Favicon Import -->
+    <link rel="icon" href="img/favicon.svg">
+    <link rel="shortcut icon" id="favicon" href="img/favicon.svg">
+    <link rel="icon" type="image/png" href="img/favicon.svg">
+    <link rel="icon" href="img/favicon.svg">
+
+    <!-- CSS Import -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Share/Embed Content -->
+    <meta property="og:url" content="http://teamskydle.idleendeavor.com"/>
+    <meta property="og:type" content="admins-and-members-list-page"/>
+    <meta property="og:title" content="Team Skydle"/>
+    <meta name="author" cotent="Built by IdleEndeavor and SF18">
+    <meta property="og:description" content="The official website of Skydle SMP Server"/>
+    <meta property="og:image" content="https://github.com/IdleEndeavor/Team-Skydle-Website/blob/main/img/favicon.svg"/>
+    <meta name="msapplication-TileColor" content="#ff007f">
+    <meta name="theme-color" content="#ff007f">
+    <meta property="og:type" content="Website"/>
+    <meta name="twitter:title" content="Team Skydle Website">  
+    <meta name="twitter:description" content="The official website of Team Skydle SMP Server">
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+<body class="bg-dark">
+    <!-- Pre-loader -->
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 1500);
+    </script>   
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+        <div class="container">
+            <a href="index.html" class="navbar-brand" href="#"><img src="img/logo.svg" alt="" height="40"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><i class="bi bi-list"></i></button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Welcome</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="announcements.html" class="nav-link">News and Announcements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="members.html" class="nav-link active">Admins and Members</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="guides.html" class="nav-link">Guides</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://discord.gg/k8K9gFyMzP" class="btn btn-info" role="button">Join the Discord Server</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Welcome Screen -->
+    <section class="bg-dark text-light p-5 text-center">
+        <div class="container">
+            <h1 class="m-0 display-3">Team Skydle</h1>
+            <h1 class="display-1" style="color: #ff007f;">Admins and Members</h1>
+        </div>
+    </section>
+
+    <section class="bg-dark text-light">
+        <div class="container">
+            <label for="searchbox"></label>
+            <input class="form-control mb-3" placeholder="Search our database for Admins and Members" type="search" oninput="liveSearch()" id="searchbox">
+
+            <span class="is-hidden">secret</span>
+
+            <div class="card cards mb-3 bg-dark">
+                <div class="card-body">
+                    <div class="row g-0">
+                        <div class="col-md-1">
+                            <img class="img-fluid" src="img/members/idleendeavor.png">
+                        </div>
+                        <div class="col m-4">
+                            <h3 class="card-title">IdleEndeavor <span class="badge bg-danger">The Server Owner Man</span></h3>
+                            <p class="card-text">Well... I'm writing these messages. So I'll be as impartial and fair in my description as possible. The Server Owner Man is the sweetest most intelligent person on planet earth. He is extremely strong and powerful in real life as well as the SMP Server. (Don't worry I was only joking) I'm just an average player happy to be able to provide every member of Team Skydle with a fun time when they feel down or are in need of a break. The world isn't kind to anyone, but that's not gonna stop me from trying to make it so. I earn nothing from running this server in terms of money, but I do earn something far more valuable, the smile on every members' face when they find their first diamond ore! </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card cards mb-3 bg-dark">
+                <div class="card-body">
+                    <div class="row g-0">
+                        <div class="col-md-1">
+                            <img class="img-fluid" src="img/members/boboii.png">
+                        </div>
+                        <div class="col m-4">
+                            <h3 class="card-title">BoBoii <span class="badge bg-warning">Admin</span></h3>
+                            <p class="card-text">Strongest of the strongest amidst Skydle PvPers. BoBoii is one of the first joinees and currently an administrator on the Team Skydle server. He helped 'The Server Owner Man' start the SMP Server and bring in new players. BoBoii is a very treasured member of the small community we've built over the years. His head is worth more than a stack of diamond blocks on Skydle SMP. Pretty hefty bounty there, so you better watch out!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card cards mb-3 bg-dark">
+                <div class="card-body">
+                    <div class="row g-0">
+                        <div class="col-md-1">
+                            <img class="img-fluid" src="img/members/mysteryvoid.png">
+                        </div>
+                        <div class="col m-4">
+                            <h3 class="card-title">Mystery_Void <span class="badge bg-warning">Admin</span></h3>
+                            <p class="card-text">The greatest dictator on the Skydle SMP Server. Mystery_Void is an early founder, joinee and administrator of Team Skydle; alongside The Server Owner man and BoBoii. He has made some of the greatest builds on the server with his band of 'Abominations' as they call themselves, and has won two consecutive seasons. The Abomination is undefeatable they claim, though we hear there have been a few abominable skirmishes among their members recently.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card cards mb-3 bg-dark">
+                <div class="card-body">
+                    <div class="row g-0">
+                        <div class="col-md-1">
+                            <img class="img-fluid" src="img/members/nosimp.png">
+                        </div>
+                        <div class="col m-4">
+                            <h3 class="card-title">no_simp <span class="badge bg-warning">Admin</span></h3>
+                            <p class="card-text">The redstone wizard of Skydle SMP. This man claims he isn't a simp, but anyone who's talked to him for more than a minute knows he's a simp for the half the population of the planet (JK!). no_simp joined the server as part of the first set of members and has helped us build a tight-knit group of friends. He often plays together with 'The Server Owner Man'. they're school buddies too!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card cards mb-3 bg-dark">
+                <div class="card-body">
+                    <div class="row g-0">
+                        <div class="col-md-1">
+                            <img class="img-fluid" src="img/members/idk.png">
+                        </div>
+                        <div class="col m-4">
+                            <h3 class="card-title">idk <span class="badge bg-warning">Admin</span></h3>
+                            <p class="card-text">A smart and capable guy who's really good at PvP. If you ever want to find idk on the SMP Server; look for BoBoii or in the Nether. He's always taking down Bastions or bullying others with Boboii (Don't worry, I'm only messing with ya!). idk is an active member of Team Skydle and is really good at strategizing. He helped 'The Server Owner Man' revitalise the playerbase when the server had become boring. Never discount idk's opinions, the guy's got some good ideas worth listening to.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card cards mb-3 bg-dark">
+                <div class="card-body">
+                    <div class="row g-0">
+                        <div class="col-md-1">
+                            <img class="img-fluid" src="img/members/cosmichydra123.png">
+                        </div>
+                        <div class="col m-4">
+                            <h3 class="card-title">Cosmichydra123 <span class="badge bg-warning">Admin</span></h3>
+                            <p class="card-text">Bob the Builder of Skydle SMP. If you want a house built; then I know a perfect guy, and the guy for the job is Cosmichydra123. He's got a knack for blending builds into the surroundings and making it look natural. Cosmichydra123 is also an active player on the SMP, and the builder of multiple mega-farms. He can be seen grinding at ungodly hours into the night at times.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card cards mb-3 bg-dark">
+                <div class="card-body">
+                    <div class="row g-0">
+                        <div class="col-md-1">
+                            <img class="img-fluid" src="img/members/j4yd3n23.png">
+                        </div>
+                        <div class="col m-4">
+                            <h3 class="card-title">J4YD3N_23 <span class="badge bg-warning">Admin</span></h3>
+                            <p class="card-text">J4YD3N_23 is the ultimate loyal player. He's been there from the start and has never left Team Skydle; even during it's tough times. He's the first person to join when a season begins and will be there till the servers turn off. We know we can count on him to help out and hype-up the SMP. He's a valued member of our community who's always all-hands-on-deck.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card cards mb-3 bg-dark">
+                <div class="card-body">
+                    <div class="row g-0">
+                        <div class="col-md-1">
+                            <img class="img-fluid" src="img/members/zenondrugs.png">
+                        </div>
+                        <div class="col m-4">
+                            <h3 class="card-title">ZenOnDrugs <span class="badge bg-warning">Admin</span></h3>
+                            <p class="card-text">Sweet and simple guy who likes to kill villager babies in his free time. And when he's not killing villager babies; he's killing pigs for food. This guy produces more porkchops an hour than a full-fledged hoglin farm. If you ever need a guy to help out with something, Zen's ready. By the way, he has a side-business selling sugar (named 'drugs') on the Skydle SMP Server. For legal reasons kindly forget I ever mentioned that.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="bg-dark text-light p-4">
+        <div class="container">
+            <p class="lead text-center">Website created by <a href="https://www.github.com/idleendeavor">IdleEndeavor</a> and <a href="https://sf18.glitch.me/">SF18</a></p>
+            <p class="lead text-center">Using <a href="https://getbootstrap.com/">Bootstrap CSS library</a></p>
+            <h1 class="display-6 text-center">View on <a href="https://github.com/IdleEndeavor/Team-Skydle-Website">GitHub</a></h1>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+      function myFunction() {
+        var copyText = document.getElementById("myInput");
+        copyText.select();
+        document.execCommand("Copy");
+        alert("IP Address Copied");
+      }
+    </script>
+    <script>
+        function liveSearch() {
+          // Locate the card elements
+          let cards = document.querySelectorAll('.cards')
+          // Locate the search input
+          let search_query = document.getElementById("searchbox").value;
+          // Loop through the cards
+          for (var i = 0; i < cards.length; i++) {
+            // If the text is within the card...
+            if(cards[i].innerText.toLowerCase()
+              // ...and the text matches the search query...
+              .includes(search_query.toLowerCase())) {
+                // ...remove the `.is-hidden` class.
+                cards[i].classList.remove("is-hidden");
+            } else {
+              // Otherwise, add the class.
+              cards[i].classList.add("is-hidden");
+            }
+          }
+        }
+    </script>
+</body>
+</html>
