@@ -17,6 +17,8 @@
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 	<!-- Share/Embed Content -->
 	<meta property="og:url" content="http://teamskydle.idleendeavor.com"/>
 	<meta property="og:type" content="news-and-announcements-page"/>
@@ -32,6 +34,16 @@
     <meta name="twitter:card" content="summary_large_image">
 </head>
 <body class="bg-dark">
+	<!-- Pre-loader -->
+	<div class="loader_bg">
+		<div class="loader"></div>
+	</div>
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 1500);
+    </script>	
+
 	<!-- Navigation Bar -->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
 		<div class="container">

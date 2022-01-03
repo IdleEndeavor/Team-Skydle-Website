@@ -11,91 +11,142 @@
 
 /* Scrollbar Colour */
 	/* Firefox */
-	* {
-		scrollbar-color: #ff007f transparent;
-	}
+		* {
+			scrollbar-color: #ff007f transparent;
+		}
 
 	/* Chrome, Edge, and Safari */
-	*::-webkit-scrollbar {
-		width: 10px;
+		*::-webkit-scrollbar {
+			width: 10px;
+		}
+
+		*::-webkit-scrollbar-track {
+			background: transparent;
+		}
+
+		*::-webkit-scrollbar-thumb {
+			background-color: #ff007f;
+			border-radius: 20px;
+		}
+
+/* Information Button */
+	.btn-info {
+	    color: #000;
+	    background-color: #ff007f;
+	    border-color: #ff007f;
 	}
 
-	*::-webkit-scrollbar-track {
-		background: transparent;
+	.btn-info:hover {
+	    color: #000;
+	    background-color: #ffffff;
+	    border-color: #ff007f;
 	}
 
-	*::-webkit-scrollbar-thumb {
-		background-color: #ff007f;
-		border-radius: 20px;
+/* Links and Link Buttons */
+	a {
+		color: #ff007f;
 	}
 
-.btn-info {
-    color: #000;
-    background-color: #ff007f;
-    border-color: #ff007f;
-}
+	a:hover {
+		color: #ffffff;
+	}
 
-.btn-info:hover {
-    color: #000;
-    background-color: #ffffff;
-    border-color: #ff007f;
-}
+/* Accordion Guides */
+	.accordion-item {
+		background-color: #121212;
+		color: white;
+	}
 
-a {
-	color: #ff007f;
-}
+	.accordion-button:not(.collapsed) {
+	    color: white;
+	    background-color: #121212;
+	    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+	    font-size: 0.75em;
+	}
 
-a:hover {
-	color: #ffffff;
-}
+	.accordion-item .accordion-button {
+		font-size: 0.75em;
+	}
 
-.accordion-item {
-	background-color: #121212;
-	color: white;
-}
-
-.accordion-button:not(.collapsed) {
-    color: white;
-    background-color: #121212;
-    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
-    font-size: 0.75em;
-}
-
-.accordion-item .accordion-button {
-	font-size: 0.75em;
-}
-
-.accordion-button {
-	color: white;
-	background-color: #121212;
-}
+	.accordion-button {
+		color: white;
+		background-color: #121212;
+	}
 
 div {
 	font-size: 1.05em;
 }
 
-.videocontainer {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
-}
-.video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+/* YouTube Video Embeds */
+	.videocontainer {
+	    position: relative;
+	    width: 100%;
+	    height: 0;
+	    padding-bottom: 56.25%;
+	}
+	.video {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
 
-.card-body {
-	background-color: #121212;
-}
+/* Announcements Cards */
+	.card-body {
+		background-color: #121212;
+	}
 
-.card-header {
-	background-color: #121212;
-}
+	.card-header {
+		background-color: #121212;
+	}
 
-.card-body.card-ads {
-	border: 3px solid #ff007f;
-}
+	.card-body.card-ads {
+		border: 3px solid #ff007f;
+	}
+
+/* Preloader */
+	.loader_bg{
+	    position: fixed;
+	    z-index: 999999;
+	    background: #212429;
+	    width: 100%;
+	    height: 100%;
+	}
+	.loader{
+	    border: 0 soild transparent;
+	    border-radius: 50%;
+	    width: 150px;
+	    height: 150px;
+	    position: absolute;
+	    top: calc(50vh - 75px);
+	    left: calc(50vw - 75px);
+	}
+	.loader:before, .loader:after{
+	    content: '';
+	    border: 1em solid #ff007f;
+	    border-radius: 50%;
+	    width: inherit;
+	    height: inherit;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    animation: loader 2s linear infinite;
+	    opacity: 0;
+	}
+	.loader:before{
+	    animation-delay: .5s;
+	}
+	@keyframes loader{
+	    0%{
+	        transform: scale(0);
+	        opacity: 0;
+	    }
+	    50%{
+	        opacity: 1;
+	    }
+	    100%{
+	        transform: scale(1);
+	        opacity: 0;
+	    }
+	}
