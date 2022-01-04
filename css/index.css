@@ -151,4 +151,11 @@ div {
 	    }
 	}
 
-.is-hidden { display: none; }
+.is-hidden { 
+	display: none; 
+}
+
+/* Custom Cursor Easter-Egg */
+	.navbar-brand:hover {
+		cursor: url("/img/cursor.cur"), url("/img/cursor.cur"), default;   
+	}
