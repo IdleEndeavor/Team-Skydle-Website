@@ -1,0 +1,3 @@
+https://api.countapi.xyz/create?namespace=teamskydle&key=teamskydle&value=0
+https://api.countapi.xyz/get/teamskydle/teamskydle
+https://api.countapi.xyz/update/teamskydle/teamskydle/?amount=1
